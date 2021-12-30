@@ -17,7 +17,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a PhD Student in Mehcanical Engineering Department at Clemson University. I got my master degree from Automative Engineering at Clemson in 2016. My research focus is on the the human-aware autonomous driving algorithms, i.e., how presence of human drivers can affect or help the autonomous driving systems. The techniques involved in my reasearches are (Inverse) reinforcement learning, optimal control, bayesian inference, etc. My anticipated graduation date is May, 2022. 
+I am a PhD Student in Mechanical Engineering Department at Clemson University. I got my master's degree in Automotive Engineering at Clemson in 2016. My research focuses on the human-aware autonomous driving algorithms, i.e., how the presence of human drivers can affect or help the autonomous driving systems. The techniques involved in my research are (inverse) reinforcement learning, optimal control, bayesian inference, etc. My anticipated graduation date is May 2022. 
 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
