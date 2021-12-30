@@ -8,8 +8,7 @@ category: work
 ---
 ### Motivation
 
-In the manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/Accordion_effect), i.e., the velocity fluctation progates from preceding vehicle to the following vehicle, is one of the major casuses of the traffic flow disruption, driving efficiency, or even collision. In contrast, 
-string stability has been a popular concept for the autonomous driving platoon to avoid the accodion effect. One step further, considering a more practical scenario where the traffic is mixed of autonomous cars and manual cars, can we design a guidelane for the autonomous driving algorithm and the arragement of the traffic such that velocity fluctation is not propagated and the platoon is collision-free?
+In manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/Accordion_effect), i.e., the velocity fluctuation propagates from the preceding vehicle to the following vehicle, is one of the major causes of traffic flow disruption, driving efficiency, or even collision. In contrast, string stability has been a popular concept for the autonomous driving platoon to avoid the accordion effect. One step further, considering a more practical scenario where the traffic is mixed with autonomous cars and manual cars, can we design a guideline for the autonomous driving algorithm and the traffic arrangement such that velocity fluctuations are not propagated, and the platoon is collision-free?
 
 ### Methodologies and results
 
