@@ -103,7 +103,7 @@ collections:
     
   CV:
     output: true
-    permalink: /cv/:path/
+    permalink: /x_cv/:path/
 
 
 # -----------------------------------------------------------------------------
