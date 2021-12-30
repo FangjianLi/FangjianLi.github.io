@@ -1,15 +1,24 @@
 ---
 layout: page
-title: project 1
+title: String stable mixed traffic platoon
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
 category: work
 ---
+### Motivation
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+In the manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/Accordion_effect), i.e., the velocity fluctation progates from preceding vehicle to the following vehicle, is one of the major casuses of the traffic flow disruption, driving efficiency, or even collision. In contrast, 
+string stability has been a popular concept for the autonomous driving platoon to avoid the accodion effect. One step further, considering a more practical scenario where the traffic is mixed of autonomous cars and manual cars, can we design a guidelane for the autonomous driving algorithm and the arragement of the traffic such that velocity fluctation is not propagated and the platoon is collision-free?
+
+### Methodologies and results
+
+Mixed traffic string stability has been defined such the the velocity fluctation is acceptatble and the rea-end collision should be avoid. 
+
+The theorem has been developed and proved that 
+
+
+
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
