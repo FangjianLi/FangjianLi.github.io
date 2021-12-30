@@ -101,9 +101,9 @@ collections:
     output: true
     permalink: /projects/:path/
     
-  x_CV:
+  CV:
     output: true
-    permalink: /x_CV/:path/
+    permalink: /CV/:path/
 
 
 # -----------------------------------------------------------------------------
