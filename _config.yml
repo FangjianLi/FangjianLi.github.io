@@ -103,6 +103,10 @@ collections:
   CV:
     output: true
     permalink: /CV/:path/
+    
+  internships:
+    output: true
+    permalink: /internships/:path/
 
 
 # -----------------------------------------------------------------------------
