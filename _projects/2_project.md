@@ -20,8 +20,10 @@ With the development of the autonomous driving systems, the role of the human ha
 $$
 J_i=c_1 \sum^{T_b} \| d_i \|_2  + c_2 \sum^{T_b}\|u_i\|_2 + c_3 \sum^{T_b} \|jerk_i \|_2 + c_4 \sum^{T_b} \| z_i \|.
 \label{cost_function}
-$$
-with constraints:
+$$<br>
+
+$\qquad$ with constraints:<br>
+
 $$
 \begin{aligned}
 &\|\lambda_i(t)-\lambda_{i}(0)\|_p \leq \|\lambda_{i-1}(t)-\lambda_{i-1}(0)\|_p\\
