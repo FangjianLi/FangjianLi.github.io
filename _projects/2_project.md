@@ -34,7 +34,7 @@ The details can be found in our paper [2].
 
 ### Results
 
-* The simulation can be done with **MATLAB**+**SIMULINK**+**CARSIM**.
+* The simulation has been done with **MATLAB**+**SIMULINK**+**CARSIM**.
 * Comparing to the benchmark controller design, the human driver comfort have been improved largely. 
 
 
