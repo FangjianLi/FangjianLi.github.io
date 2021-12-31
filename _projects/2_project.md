@@ -22,7 +22,7 @@ J_i=c_1 \sum^{T_b} \| d_i \|_2  + c_2 \sum^{T_b}\|u_i\|_2 + c_3 \sum^{T_b} \|jer
 \label{cost_function}
 $$<br>
 
-$\qquad$ with constraints:<br>
+$$\qquad$$ with constraints:<br>
 
 $$
 \begin{aligned}
@@ -31,8 +31,9 @@ $$
 &\|\lambda_{i+j}(t)-\lambda_{i+j}(0)\|_\infty \leq \|g^*_{h_a}(t)\|_1\|\lambda_1(t)-\lambda_{1}(0)\|_\infty\\
 &d_{i+j}(t)\geq \max\{TTC\left(v_{i+j}(t)-v_{i+j-1}(t)\right),d_{\min}\}
 \end{aligned}
-$$
-The details can be found in our paper [1].
+$$<br>
+
+The details can be found in our paper [1].<br>
 
 ### Results
 
