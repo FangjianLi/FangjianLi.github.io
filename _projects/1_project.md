@@ -1,7 +1,7 @@
 ---
 layout: page
 title: String stable mixed traffic platoon
-description: a project with a background image
+description: an efficient and safe vehicle team
 img: assets/img/12.jpg
 importance: 1
 category: work
