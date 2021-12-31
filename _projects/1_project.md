@@ -12,77 +12,23 @@ In manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/
 
 ### Methodologies and results
 
-Mixed traffic string stability has been defined such the the velocity fluctation is acceptatble and the rea-end collision should be avoid. 
+* Mixed traffic string stability has been defined (Definifition 1 in [1]) such that the velocity fluctation is acceptatble and the rear-end collision should be avoid. 
 
-The theorem has been developed and proved that 
+* The theorem (Theorem 1 in [1]) has been developed and proved that the mixed traffic string stability can be achieved if 
 
+$$
+\|G^{\Lambda}_{i,1}(s)\|_{H_\infty} \leq \|G^{*}_{h_a}(s)\|_{H_\infty},~\forall \ i >1,  \\
+\|g^{\Lambda}_{i,1}(t)\|_1 \leq \|g^{*}_{h_a}(t)\|_1,~\forall \ i > 1,\\
+\|v_1(t)-v_1(0)\|_\infty
+\leq\min\left(\frac{h_{\Phi(i)}v_1(0)}{\|g^{'}_{\Phi(i)}(t)\|_1\|g^{*}_{h_a}(t)\|_1},\frac{h_{\Phi(2)}v_1(0)}{\|g^{'}_{\Phi(2)}(t)\|_1}\right), \forall i>2,
+$$
 
+>>Intuitively, the above reuqirements can be achieved by suitable design of the autonomous driving systems, the arrangement ofthe mixed traffic sequence. More details on derivations and proof can be found in [1] 
 
+* It has been rigorous proved that the mixed taffic string stability can be guaranteedby adjusting the time headway of autonomous cars or inserting anadditional autonomous cars (Theorem 2 in [1])
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Application
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+* Given a mixed traffic platoon Theorem 1 can be used to check if it is string stable
+* String stable controller design guidance can be provided 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
