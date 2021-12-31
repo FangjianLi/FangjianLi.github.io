@@ -4,4 +4,3 @@ permalink: /robots.txt
 User-agent: *
 Allow: /
 
-Sitemap: https://fangjianli.github.io/sitemap.xml
