@@ -30,7 +30,7 @@ $$
 &d_{i+j}(t)\geq \max\{TTC\left(v_{i+j}(t)-v_{i+j-1}(t)\right),d_{\min}\}
 \end{aligned}
 $$
-The details can be found in our paper [2].
+The details can be found in our paper [1].
 
 ### Results
 
@@ -41,3 +41,5 @@ The details can be found in our paper [2].
 ### Application
 * A autonomous vehicle longitudinal controller is designed to improve the driver comfort. 
 * This controller can also help human performance in monitoring the operation of the autonomous driving system (longitudinal). 
+
+>**[1] Li, Fangjian, and Yue Wang. “Cooperative adaptive cruise control for string stable mixed traffic: Benchmark and human-centered design.” IEEE Transactions on Intelligent Transportation Systems 18.12 (2017): 3473-3485.**
