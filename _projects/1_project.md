@@ -38,4 +38,4 @@ $$
 * Given a mixed traffic platoon Theorem 1 can be used to check if it is string stable
 * String stable controller design guidance can be provided 
 
-##### [1] Li, Fangjian, and Yue Wang. "Cooperative adaptive cruise control for string stable mixed traffic: Benchmark and human-centered design." IEEE Transactions on Intelligent Transportation Systems 18.12 (2017): 3473-3485.
+**[1] Li, Fangjian, and Yue Wang. "Cooperative adaptive cruise control for string stable mixed traffic: Benchmark and human-centered design." IEEE Transactions on Intelligent Transportation Systems 18.12 (2017): 3473-3485.**
