@@ -17,10 +17,12 @@ In manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/
 * The theorem (Theorem 1 in [1]) has been developed and proved that the mixed traffic string stability can be achieved if 
 
 $$
+\begin{aligned}
 \|G^{\Lambda}_{i,1}(s)\|_{H_\infty} \leq \|G^{*}_{h_a}(s)\|_{H_\infty},~\forall \ i >1,  \\
 \|g^{\Lambda}_{i,1}(t)\|_1 \leq \|g^{*}_{h_a}(t)\|_1,~\forall \ i > 1,\\
 \|v_1(t)-v_1(0)\|_\infty
 \leq\min\left(\frac{h_{\Phi(i)}v_1(0)}{\|g^{'}_{\Phi(i)}(t)\|_1\|g^{*}_{h_a}(t)\|_1},\frac{h_{\Phi(2)}v_1(0)}{\|g^{'}_{\Phi(2)}(t)\|_1}\right), \forall i>2,
+\end{aligned}
 $$
 
 >>Intuitively, the above reuqirements can be achieved by suitable design of the autonomous driving systems, the arrangement ofthe mixed traffic sequence. More details on derivations and proof can be found in [1] 
