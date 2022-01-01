@@ -30,7 +30,7 @@ $$\qquad$$ with constraints:
 
 $$
 \begin{aligned}
-&\|\lambda_i(t)-\lambda_{i}(0)\|_p \leq \|\lambda_{i-1}(t)-\lambda_{i-1}(0)\|_p\\
+\qquad &\|\lambda_i(t)-\lambda_{i}(0)\|_p \leq \|\lambda_{i-1}(t)-\lambda_{i-1}(0)\|_p\\
 &\|\lambda_{i+j}(t)-\lambda_{i+j}(0)\|_2 \leq \|G^*_{h_a}(s)\|_\infty\|\lambda_1(t)-\lambda_1(0)\|_2\\
 &\|\lambda_{i+j}(t)-\lambda_{i+j}(0)\|_\infty \leq \|g^*_{h_a}(t)\|_1\|\lambda_1(t)-\lambda_{1}(0)\|_\infty\\
 &d_{i+j}(t)\geq \max\{TTC\left(v_{i+j}(t)-v_{i+j-1}(t)\right),d_{\min}\}
