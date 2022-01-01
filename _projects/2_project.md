@@ -42,6 +42,8 @@ $$\qquad$$The details can be found in our paper [1].<br>
 * Comparing to the benchmark controller design, the human driver comfort have been improved largely. 
 
 
+{% include figure.html path="assets/img/human_centered_CACC.gif" title="human-centered CACC" class="img-fluid rounded z-depth-1" %}
+
 ### Application
 * A autonomous vehicle longitudinal controller is designed to improve the driver comfort. 
 * This controller can also help human performance in monitoring the operation of the autonomous driving system (longitudinal). 
