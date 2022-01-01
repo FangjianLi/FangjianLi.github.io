@@ -29,6 +29,6 @@ Although the autonomous vehicle team achieved success in recent years, human ope
 
 * Based on the human subject test, it has been shown that our proposed HRI framework can greatly improve the human performance and reduce the human workload. 
 
-{% include figure.html path="assets/img/HRI_setup.gif" title="HRI setup" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/HRI_setup.jpg" title="HRI setup" class="img-fluid rounded z-depth-1" %}
 
 
