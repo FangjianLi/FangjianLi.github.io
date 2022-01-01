@@ -16,7 +16,7 @@ With the development of the autonomous driving systems, the role of the human ha
 * The jerk (derivatives of longituinal acceleration) is used to quantify the **physical comfort** of the driver and driving smoothness. 
 * The psychophysical car-following model (i.e., AP model in [external 1]) is used to quantify **psychological comfort** of the driver. In the psychophysical car-following model, different driving regimes are separated based on the human driver’s perceptual thresholds (i.e. SDX, OPDV, SDV and BX).For example, BX represents the minimum following threshold for the human driver. Here, we focus more on the unconscious regime (white area), where a human driver cannot perceive any relative motion with the preceding car despite generating small acceleration/deceleration unconsciously. If the driving states of the vehicle can within the unconscious regime, human’s nerve is less stimulated during the normal operating mode and more relaxed.
 
-{% include figure.html path="assets/img/human_centered_CACC.gif" title="human-centered CACC" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/ap_model.jpg" title="AP model" class="img-fluid rounded z-depth-1" %}
 
 >> In this way, human workload in monitoring the CACC car operation can also be reduced, since human’s nerve is less stimulated during the normal operating mode.
 
