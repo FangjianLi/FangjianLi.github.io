@@ -11,7 +11,7 @@ Here are the summary of the projects I did in the course CPSC8430 from Clemson c
 
 ### 1. Image classification based on DNN and CNN
 
-The DNN and CNN have been built with **Tensorflow** in order to classfiy the image from MINST dataset. Moreover, the PCA weights analysis, gradient obervation, generalization analysis, and sensitivity analysis has been conducted. The report and codes can be found in my Github [repository](https://github.com/FangjianLi/Deep-learning-Project1-Image-Classification-with-DNN-CNN)
+The DNN and CNN have been built with **Tensorflow** in order to classfiy the image from [MINST dataset](http://yann.lecun.com/exdb/mnist/). Moreover, the PCA weights analysis, gradient obervation, generalization analysis, and sensitivity analysis has been conducted. The report and codes can be found in my Github [repository](https://github.com/FangjianLi/Deep-learning-Project1-Image-Classification-with-DNN-CNN)
 
 
 
@@ -28,6 +28,6 @@ In this project, a typical video caption task is fulfilled by [the seq2seq model
 
 ### 3. Generate pictures with GANs
 
-In this project, hree different forms of GANS, i.e., DCGAN, WGAN, and ACGAN,are applied to generate realistic images based on the cifar-10 image database. The [cifar-10] (https://www.cs.toronto.edu/~kriz/cifar.html) contains 50000training 32x32 RGB images with ten different classes which are airplane, automo-bile,  bird,  cat,  deer,  dog,  frog,  horse,  ship,  and truck. The structure of GANs and ACGANs are shown as follows. The report and codes can be found in my Github [repository](https://github.com/FangjianLi/Deep-learning-Project-Generate-Pics-with-GANs)
+In this project, three different forms of GANS, i.e., DCGAN, WGAN, and ACGAN,are applied to generate realistic images based on the cifar-10 image database. These networks are built with **Tensorflow**. The [cifar-10](https://www.cs.toronto.edu/~kriz/cifar.html) contains 50000training 32x32 RGB images with ten different classes which are airplane, automo-bile,  bird,  cat,  deer,  dog,  frog,  horse,  ship,  and truck. The structure of GANs and ACGANs are shown as follows. The report and codes can be found in my Github [repository](https://github.com/FangjianLi/Deep-learning-Project-Generate-Pics-with-GANs)
 
 {% include figure.html path="assets/img/gan_model.jpg" title="gan model" class="img-fluid rounded z-depth-1" %}
