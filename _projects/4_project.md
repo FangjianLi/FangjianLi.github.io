@@ -2,7 +2,7 @@
 layout: page
 title: HRI in vehicle team under cyber attack
 description: a human-robot interaction framework to help vehicle team under cyber attacks
-img: assets/img/platoon_project.jpg
+img: assets/img/hri_cover.jpg
 importance: 4
 category: work
 ---
