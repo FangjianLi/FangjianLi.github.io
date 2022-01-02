@@ -2,7 +2,7 @@
 layout: page
 title: String stable mixed traffic platoon
 description: an efficient and safe vehicle team
-img: assets/img/platoon_project.jpg
+img: assets/img/platoon_cover.jpg
 importance: 1
 category: work
 ---
@@ -12,7 +12,9 @@ In manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/
 
 
 
+<div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/traffic_jam.gif" title="accordion effect" class="img-fluid rounded z-depth-1" %}
+</div>
 
 ### Methodologies and results
 
