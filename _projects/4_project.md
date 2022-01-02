@@ -15,7 +15,9 @@ Although the autonomous vehicle team achieved success in recent years, human ope
 
 * The HRI framwork is composed of three systems, i.e., anomaly  reporting  system (ARS),  trust-based  information  management  system  (TIMS), and graphical user interface (GUI). The block diagram is shown in the following figure. 
 
-<img src="HRI_framework.jpg" alt="drawing" width="200"/>
+<p align="center">
+<img src="HRI_framework.jpg" alt="drawing" width="400"/>
+</p>
 
 * The ARS can be used to detect the abnormality of the neigbor vehicles based on the residual generation and anslysis technique. The report will be sent to the cloud. 
 
