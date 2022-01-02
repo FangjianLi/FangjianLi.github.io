@@ -2,7 +2,7 @@
 layout: page
 title: Deep learning series project
 description: Deep learning project in CPSC 8430
-img: assets/img/1.jpg
+img: assets/img/deep_learning_cover.jpg
 importance: 1
 category: fun
 ---
