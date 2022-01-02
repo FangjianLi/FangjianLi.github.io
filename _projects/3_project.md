@@ -2,7 +2,7 @@
 layout: page
 title: Resilient CACC under cyber attacks
 description: a resilient vehicle autonomous longitudinal controller under cyber attacks
-img: assets/img/cacc_project.jpg
+img: assets/img/resilient_cover.jpg
 importance: 3
 category: work
 ---
