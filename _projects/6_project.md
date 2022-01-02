@@ -1,80 +1,26 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
-importance: 4
-category: fun
+title: safe adversarial inverse reinforcement learning (S-AIRL）
+description: a safety-aware IRL algorithm with an application of highway driving scenario
+img: assets/img/hri_cover.jpg
+importance: 5
+category: work
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Motivation
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+Reinforcement learning (RL) has achieved lots of sucess in training the policy control policy. One step further, given the expert demonstrations, the inverse reinforcemeant learning (IRL) can avoid the necessity of handtunning the reward function. However, similar to other policy learning lagorithms, IRL suffers from the safety concern. What's more, IRL is even more vunlerable to the unsafe issue, as it can only infer the importance of the safety from dritribution matching. In this project, the safety-aware inverse reinforcement learning has been developed to improve the safety of the algorithm. 
 
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
+### Methodologies 
+* First of all, to quantify the safety level of state action pairs $$(s,a)$$, a safety critic network is trained based on the guidance of the control barrier function (CBF). The model-based knowledge, i.e., CBF, is incoporated into the model-free method, i.e., safety critic network, can avoid the necessity of training another guiding policy and can also ender  a  more sufficient exploration. As a result, the trained CBF-based safety critic $$Q^{\textrm{CBF}}_{\textrm{safe}}(s,a)$$ can qunatify the safety probabiliy of the state-action pairs in the future. 
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal it's glory in the next row of images.
+* Seond, to inject the safety-awareness, the trained safety cirtic  $$Q^{\textrm{CBF}}_{\textrm{safe}}(s,a)$$ is intergrated with the discriminator such that the safety feature will be considered in the distribution discrimination process (between trajectories from expert and learned policy). 
 
+* Third, to make sure safety plays an important role, a regulator is added to the algorithm to punish the revovered reward from assigning high rewards to the risky state action pairs. 
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
+### Results
 
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
+* The training algorithm is written with Tensorflow. We test our algorithm in the highway driving scenario in the simulator highway-env. 
+* The scripts run in the high-performance computing (HPC) resources Palmetto cluster at Clemson University. To facilitate the HPC, parallel samplers are written with ray to greatly improve the sampling speed. The codes of SAIRL and PPO with parallel sampling feature can be found in my Github repository
+* Comparing to the benchmark IRL algorithm AIRL, with the same level of imitation learning performance, the collision rate has been reduced by 30%. 
