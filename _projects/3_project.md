@@ -14,7 +14,10 @@ The vehicle-to-vehicle (V2V) communication can improve the autonomous vehicle dr
 
 * The resilient controller is designed based on the unknown input observer (UIO). The block diagram is shown below. More details can be found in our paper [2].
 
+
+<div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/OBRC_structure.jpg" title="OBRC structure" class="img-fluid rounded z-depth-1" %}
+</div>
 
 * It has been proved that this controller is asmptotically stable, string stable (without cyber attacks). (our paper under review [3])
 
