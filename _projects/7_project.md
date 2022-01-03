@@ -17,5 +17,7 @@ MINI customer experience is highly considered to bring about new driving experie
 ### Automotive Electronic Project Series: 
 * Arduino and many kinds of sensors and servo were used to make the autonomous ground vehicle and flying pizza box. By writing the codes in Arduino, the functions of these autonomous vehicles were realized. 
 * The groud vehicle can drive along the ramp without the collision with obstacles. 
-*The pizza box can fly from the predfined point A and land on the predefined point B autonomously.  
-*The center panel system of MINI Cooper was designed by using the Visual Studio.
+* The pizza box can fly from the predfined point A and land on the predefined point B autonomously.  
+* The center panel system of MINI Cooper was designed by using the Visual Studio.
+
+### More projects will be updated. 
