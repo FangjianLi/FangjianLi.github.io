@@ -22,8 +22,10 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
 ### Results
 
 * The training algorithm is written with Tensorflow. We test our algorithm in the highway driving scenario in the simulator highway-env. 
+
 <div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/sairl_setup.jpg" title="sairl_setup" class="img-fluid rounded z-depth-1" %}
 </div>
+
 * The scripts run in the high-performance computing (HPC) resources Palmetto cluster at Clemson University. To facilitate the HPC, parallel samplers are written with ray to greatly improve the sampling speed. The codes of SAIRL and PPO with parallel sampling feature can be found in my Github repository
 * Comparing to the benchmark IRL algorithm AIRL, with the same level of imitation learning performance, the collision rate has been reduced by 30%. 
