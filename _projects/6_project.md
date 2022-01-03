@@ -30,6 +30,8 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
 
 * The training algorithm is written with Tensorflow. We test our algorithm in the highway driving scenario in the simulator highway-env. 
 
+* Albation test is also conducted without the regulator, i.e., SAIRL/Reg.
+
 <div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/sairl_setup.jpg" title="sairl_setup" class="img-fluid rounded z-depth-1" %}
 </div>
@@ -40,3 +42,9 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
 <div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/sairl_performance.jpg" title="sairl performance" class="img-fluid rounded z-depth-1" %}
 </div>
+
+* The driving comparisons are shown here. 
+
+{% include figure.html path="assets/img/AIRL_DRIVE.gif" title="AIRL" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/SAIRL_REG_DRIVE.gif" title="SAIRL" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/SAIRL_DRIVE.gif" title="SAIRL" class="img-fluid rounded z-depth-1" %}
