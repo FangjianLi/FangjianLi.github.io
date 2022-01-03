@@ -45,6 +45,15 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
 
 * The driving comparisons are shown here. 
 
-{% include figure.html path="assets/img/AIRL_DRIVE.gif" title="AIRL" class="img-fluid rounded z-depth-1" %}
-{% include figure.html path="assets/img/SAIRL_REG_DRIVE.gif" title="SAIRL" class="img-fluid rounded z-depth-1" %}
-{% include figure.html path="assets/img/SAIRL_DRIVE.gif" title="SAIRL" class="img-fluid rounded z-depth-1" %}
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/AIRL_DRIVE.gif" title="AIRL" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SAIRL_REG_DRIVE.gif" title="SAIRL/REG" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/SAIRL_DRIVE.gif" title="SAIRL" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
