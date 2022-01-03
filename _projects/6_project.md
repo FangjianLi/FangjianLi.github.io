@@ -13,11 +13,18 @@ category: work
 Reinforcement learning (RL) has achieved lots of sucess in training the policy control policy. One step further, given the expert demonstrations, the inverse reinforcemeant learning (IRL) can avoid the necessity of handtunning the reward function. However, similar to other policy learning lagorithms, IRL suffers from the safety concern. What's more, IRL is even more vunlerable to the unsafe issue, as it can only infer the importance of the safety from dritribution matching. In this project, the safety-aware inverse reinforcement learning has been developed to improve the safety of the algorithm. 
 
 ### Methodologies 
+* The overall structure is shown in the following picture. More details can be found in our paper [4].
+
+<div class="row justify-content-sm-center">
+{% include figure.html path="assets/img/sairl_structure.jpg" title="sairl_structure" class="img-fluid rounded z-depth-1" %}
+</div>
+
 * First of all, to quantify the safety level of state action pairs $$(s,a)$$, a safety critic network is trained based on the guidance of the control barrier function (CBF). The model-based knowledge, i.e., CBF, is incoporated into the model-free method, i.e., safety critic network, can avoid the necessity of training another guiding policy and can also ender  a  more sufficient exploration. As a result, the trained CBF-based safety critic $$Q^{\textrm{CBF}}_{\textrm{safe}}(s,a)$$ can qunatify the safety probabiliy of the state-action pairs in the future. 
 
 * Seond, to inject the safety-awareness, the trained safety cirtic  $$Q^{\textrm{CBF}}_{\textrm{safe}}(s,a)$$ is intergrated with the discriminator such that the safety feature will be considered in the distribution discrimination process (between trajectories from expert and learned policy). 
 
 * Third, to make sure safety plays an important role, a regulator is added to the algorithm to punish the revovered reward from assigning high rewards to the risky state action pairs. 
+
 
 ### Results
 
