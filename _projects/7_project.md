@@ -20,4 +20,15 @@ MINI customer experience is highly considered to bring about new driving experie
 * The pizza box can fly from the predfined point A and land on the predefined point B autonomously.  
 * The center panel system of MINI Cooper was designed by using the Visual Studio.
 
+### Magna suspension development project:
+
+In this project, I was member of the suspension development team went through the "voice of customer"/"problem definition" session all the way to the "cost analysis" session:
+* Gantt Chart is used to track the activities against time. 
+* Quality function deployment (QFD)   is used to convert the customer requirements (voice of
+customer) into quantitative parameters.
+* The product is built with Solidworks and Finite Element Analysis is conducted
+* PFMEA (Process Failure Mode and Effects Analysis) is a structured approach that assigns quality risks levels to each step of the in a manufacturing process.
+* Cost analysis is conducted based on supply chain, estimation of production volume, and investment
+
+
 ### More projects will be updated. 
