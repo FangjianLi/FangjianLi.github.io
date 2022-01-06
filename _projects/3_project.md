@@ -39,3 +39,5 @@ $$
 </div>
 
 > **[2] Li, Fangjian, et al. Trust-based control and scheduling for UGV platoon under cyber attacks. No. 2019-01-1077. SAE Technical Paper, 2019.**
+> **[3] Li, Fangjian, et al. Unmanned Ground Vehicle Platooning under CyberAttacks: A Human-Robot Interaction Framework. 
+under review in Transactions on Intelligent Transportation Systems
