@@ -4,7 +4,7 @@ title: String stable mixed traffic platoon
 description: an efficient and safe vehicle team
 img: assets/img/platoon_cover.jpg
 importance: 2
-category: Research: accomodation for the human
+category: 'Research: accomodation for the human'
 ---
 ### Motivation
 
