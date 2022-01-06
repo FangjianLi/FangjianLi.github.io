@@ -4,7 +4,7 @@ title: safe adversarial inverse reinforcement learning (S-AIRL）
 description: a safety-aware IRL algorithm with an application of highway driving scenario
 img: assets/img/sairl_cover.jpg
 importance: 5
-category: Research: learn from the human
+category: 'Research: learn from the human'
 ---
 
 
