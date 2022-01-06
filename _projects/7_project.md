@@ -4,7 +4,7 @@ title: Other course projects
 description: other course projects worth mentioning
 img: assets/img/other_projects_cover.jpg
 importance: 5
-category: fun
+category: 'Course projects'
 ---
 
 
