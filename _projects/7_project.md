@@ -6,31 +6,34 @@ img: assets/img/other_projects_cover.jpg
 importance: 5
 category: 'Course projects'
 ---
+### 1. ROS learning
+
+I am actively learning the ROS with the ROS construct [website](https://www.theconstructsim.com/). I have completed the following courses (along with the sourses projects) for now.
+
+* ROS basics, 
 
 
-### Deep Orange 7: REINVENT THE BMW MINI 2025
-
+### 2. Deep Orange 7: REINVENT THE BMW MINI 2025
 I involved in the first stage of the Deep Orange 7 project.  I am in  the interior team, multiple functions have been
 designed to make 2025 MINI cooper a more customized and intelligent vehicle. The new technology and
 MINI customer experience is highly considered to bring about new driving experience. The details and outcomes of this project can be found in the [website](https://cuicardeeporange.com/project/do7/)
 
-### Automotive Electronic Project Series: 
-* Arduino and many kinds of sensors and servo were used to make the autonomous ground vehicle and flying pizza box. By writing the codes in Arduino, the functions of these autonomous vehicles were realized. 
+### 3. Automotive Electronic Project Series: 
+* Arduino and many kinds of sensors and servos were used to make the autonomous ground vehicle and flying pizza box. By writing the codes in Arduino, the functions of these autonomous vehicles were realized. 
 * The groud vehicle can drive along the ramp without the collision with obstacles. 
 * The pizza box can fly from the predfined point A and land on the predefined point B autonomously.  
 * The center panel system of MINI Cooper was designed by using the Visual Studio.
 
-### Magna suspension development project:
-
+### 4. Magna suspension development project:
 In this project, I was member of the suspension development team went through the "voice of customer"/"problem definition" session all the way to the "cost analysis" session:
 * Gantt Chart is used to track the activities against time. 
-* Quality function deployment (QFD)   is used to convert the customer requirements (voice of
+* Quality function deployment (QFD) is used to convert the customer requirements (voice of
 customer) into quantitative parameters.
 * The product is built with Solidworks and Finite Element Analysis is conducted
 * PFMEA (Process Failure Mode and Effects Analysis) is a structured approach that assigns quality risks levels to each step of the in a manufacturing process.
 * Cost analysis is conducted based on supply chain, estimation of production volume, and investment
 
 
-### More projects will be updated. 
+### More projects will be updated ...
 
 
