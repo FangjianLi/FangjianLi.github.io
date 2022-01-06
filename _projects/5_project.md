@@ -4,7 +4,7 @@ title: Deep learning series project
 description: Deep learning project in CPSC 8430
 img: assets/img/deep_learning_cover.jpg
 importance: 1
-category: Course projects
+category: 'Course projects'
 ---
 
 Here are the summary of the projects I did in the course CPSC8430 from Clemson computer science department. 
