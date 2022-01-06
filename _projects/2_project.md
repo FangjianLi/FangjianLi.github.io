@@ -4,7 +4,7 @@ title: Human centered CACC design
 description: a comfortable longitudinal vehicle controller
 img: assets/img/human_centered_cacc_cover.jpg
 importance: 1
-category: Research: accomodation for the human
+category: 'Research: accomodation for the human'
 ---
 
 ### Motivation
