@@ -4,7 +4,7 @@ title: projects
 permalink: /projects/
 description: A growing collection of my projects.
 nav: true
-display_categories: [Research: learn from the human, Research: help from the human, Research: accomodation for the human, Course projects]
+display_categories: ['Research: learn from the human', 'Research: help from the human', 'Research: accomodation for the human', 'Course projects']
 priority: 2
 horizontal: false
 ---
