@@ -12,7 +12,7 @@ I am actively learning the ROS with the ROS construct [website](https://www.thec
 
 * [**ROS basics**](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros-python-course/): Pratice with the ROS elements, such as topic, service, and action, in controlling different robots under Gazebo.
 * [**ROS in autonomous driving car**](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros-autonomous-vehicles-101/): Different sensor readings, i.e., Lidar, camera, and GPS, are processed. An obstacle avoidance controller is built with a safe feature in dealing with the loss of command message. The control command in the form of CAN-BUS message is sent to the drive-by-wire node to control the vehicle. 
-* 
+* [**ROS SLAM and navigation**](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros-courses-ros-navigation-in-5-days/): The SLAM package [gmapping](http://wiki.ros.org/gmapping) is first used to build the map of an unknown environment. The [acml](http://wiki.ros.org/amcl) package is adopted for the localization purpose. Finally, the global planning algorithm and local planner have been setup with [move_base](http://wiki.ros.org/move_base) package in completing the navigation task.  
 
 ### 2. Deep Orange 7: REINVENT THE BMW MINI 2025
 I involved in the first stage of the Deep Orange 7 project.  I am in  the interior team, multiple functions have been
