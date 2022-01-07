@@ -8,10 +8,11 @@ category: 'Course projects'
 ---
 ### 1. ROS learning
 
-I am actively learning the ROS with the ROS construct [website](https://www.theconstructsim.com/). I have completed the following courses (along with the sourses projects) for now.
+I am actively learning the ROS with the ROS construct [website](https://www.theconstructsim.com/). I have completed the following courses (along with the course projects) for now.
 
-* ROS basics, 
-
+* [**ROS basics**](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros-python-course/): Pratice with the ROS elements, such as topic, service, and action, in controlling different robots under Gazebo.
+* [**ROS in autonomous driving car**](https://www.theconstructsim.com/robotigniteacademy_learnros/ros-courses-library/ros-autonomous-vehicles-101/): Different sensor readings, i.e., Lidar, camera, and GPS, are processed. An obstacle avoidance controller is built with a safe feature in dealing with the loss of command message. The control command in the form of CAN-BUS message is sent to the drive-by-wire node to control the vehicle. 
+* 
 
 ### 2. Deep Orange 7: REINVENT THE BMW MINI 2025
 I involved in the first stage of the Deep Orange 7 project.  I am in  the interior team, multiple functions have been
