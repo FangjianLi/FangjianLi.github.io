@@ -28,22 +28,22 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
 
 ### Results
 
-* The training algorithm is written with Tensorflow. We test our algorithm in the highway driving scenario in the simulator highway-env. 
-
-* Albation test is also conducted without the regulator, i.e., SAIRL/Reg.
+* The training algorithm is written with **Tensorflow**. We test our algorithm in the highway driving scenario in the simulator [highway-env](https://github.com/eleurent/highway-env), where the environmental cars are modeled by IDM and MOBIL.
 
 <div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/sairl_setup.jpg" title="sairl_setup" class="img-fluid rounded z-depth-1" %}
 </div>
 
-* The scripts run in the high-performance computing (HPC) resources Palmetto cluster at Clemson University. To facilitate the HPC, parallel samplers are written with ray to greatly improve the sampling speed. The codes of SAIRL and PPO with parallel sampling feature can be found in my Github repository
+* Albation test is also conducted without the regulator, i.e., SAIRL/Reg.
+
+* The scripts run in the **high-performance computing (HPC)** resources [Palmetto cluster](https://citi.sites.clemson.edu/infrastructure/) at Clemson University. To facilitate the HPC, parallel samplers are written with **Ray** to greatly improve the sampling speed. The codes of AIRL and PPO with parallel sampling feature can be found in my Github [repository](https://github.com/FangjianLi/PPO-and-AIRL-with-parallel-sampling)
 * Comparing to the benchmark IRL algorithm AIRL, with the same level of imitation learning performance, the collision rate has been reduced by 30%. 
 
 <div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/sairl_performance.jpg" title="sairl performance" class="img-fluid rounded z-depth-1" %}
 </div>
 
-* The driving comparisons are shown here. 
+* The driving comparisons (under four parallel driving preceding cars) are shown here. 
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -57,3 +57,4 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
     </div>
 </div>
 
+> ** [4] **Li, Fangjian, Wagner, John R, and Wang, Yue, "Safety-aware Adversarial Inverse Reinforcement Learning (S-AIRL) for Highway Autonomous Driving", accepted in ASME Journal of Autonomous Vehicles and Systems, 2022.**
