@@ -2,7 +2,7 @@
 layout: page
 title: interactive safety cirtic networks 
 description: a safety critic network considering the interactions between neighbor cars
-img: assets/img/sairl_cover.jpg
+img: assets/img/interactive_safety_critic_cover.jpg
 importance: 6
 category: 'Research: learn from the human'
 ---
