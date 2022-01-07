@@ -23,7 +23,7 @@ In this project, the real human data will be collected from the built driving si
 * The Carla is integrated with this driving simulator, such that the animation is rendered by the Unreal enginer from Carla. 
 * It can accomodate two kinds of human input. One is the low-level control input from steering wheel and pedals. The other option is the high level decision making command, e.g., change to the left lane/right lane. 
 
-The codes will be availabe in my Github repository soon. Here are some video captures:
+The codes will be availabe in my Github repository soon. Here are some video captures (the yellow car is controlled by a user-defined learning algorithm, green car is controlled by the humam, and blue car is modeled by the driver models):
 
 
 <div class="row">
