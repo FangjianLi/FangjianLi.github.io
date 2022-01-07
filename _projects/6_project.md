@@ -57,4 +57,4 @@ Reinforcement learning (RL) has achieved lots of sucess in training the policy c
     </div>
 </div>
 
-> ** [4] **Li, Fangjian, Wagner, John R, and Wang, Yue, "Safety-aware Adversarial Inverse Reinforcement Learning (S-AIRL) for Highway Autonomous Driving", accepted in ASME Journal of Autonomous Vehicles and Systems, 2022.**
+> **[4] Li, Fangjian, Wagner, John R, and Wang, Yue, "Safety-aware Adversarial Inverse Reinforcement Learning (S-AIRL) for Highway Autonomous Driving", accepted in ASME Journal of Autonomous Vehicles and Systems, 2022.**
