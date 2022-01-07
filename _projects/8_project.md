@@ -39,4 +39,5 @@ The codes will be availabe in my Github repository soon. Here are some video cap
 <div class="row">
     {% include figure.html path="assets/img/human_driver.gif" title="Preliminary demos" class="img-fluid rounded z-depth-1" %}
 </div>
-<div class="caption">
+    
+
