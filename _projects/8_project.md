@@ -28,16 +28,16 @@ The codes will be availabe in my Github repository soon. Here are some video cap
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/simulator_continuous.gif" title="Continuous action input" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/continuous_action_input.gif" title="Continuous action input" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/simulator_vertical.gif" title="Decision making input" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/decision_making_action.gif" title="Decision making input" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
 
-<div class="row">
-    {% include figure.html path="assets/img/human_driver.gif" title="Preliminary demos" class="img-fluid rounded z-depth-1" %}
+<div class="row justify-content-sm-center">
+    {% include figure.html path="assets/img/preliminary_demo.gif" title="Preliminary demos" class="img-fluid rounded z-depth-1" %}
 </div>
     
 
