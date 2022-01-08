@@ -38,5 +38,5 @@ nav: true
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### 5. Travel <span style="color:purple">awardees</span> in the following summer school:
+#### Travel <span style="color:purple">awardees</span> in the following summer school:
 * IEEE VTS Connected & Autonomous Vehicle Summer School, Worcester, MA
