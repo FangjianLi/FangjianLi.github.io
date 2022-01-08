@@ -2,7 +2,7 @@
 layout: page
 permalink: /activities/
 title: activities
-description: Here is a brief summary of my services and activities:
+description: Here is a brief summary of my services and activities.
 priority: 5
 nav: true
 ---
