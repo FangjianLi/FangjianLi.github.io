@@ -20,7 +20,7 @@ With the development of autonomous driving systems, the role of the human has be
 {% include figure.html path="assets/img/ap_model_resize.jpg" title="AP model" class="img-fluid rounded z-depth-1" %}
 </div>
 
->> In this way, the human workload in monitoring the CACC car operation can also be reduced since the human nerve is less stimulated during the normal operating mode. 
+> In this way, the human workload in monitoring the CACC car operation can also be reduced since the human nerve is less stimulated during the normal operating mode. 
 
 * An **MPC-like** optimal controller is designed to improve both physicaland psychological comfort. The optimal control problem is formulated as follows:
 $$
