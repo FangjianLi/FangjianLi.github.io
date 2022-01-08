@@ -14,10 +14,10 @@ With the development of autonomous driving systems, the role of the human has be
 ### Methodologies 
 
 * The jerk (derivatives of longituinal acceleration) is used to quantify the **physical comfort** of the driver and driving smoothness. 
-* The psychophysical car-following model (i.e., [AP model](https://ieeexplore.ieee.org/abstract/document/1504791)) is used to quantify **psychological comfort** of the driver. As shown in the following figure, different driving regimes in the psychophysical car-following model are separated based on the human driver’s perceptual thresholds (i.e., SDX, OPDV, SDV, and BX). For example, BX represents the minimum following threshold for the human driver. Here, we focus more on the unconscious regime (white area), where a human driver cannot perceive any relative motion with the preceding car despite unconsciously generating small acceleration/deceleration. Suppose we can design a controller such that the vehicle motion states are within the unconscious regime. In that case, the human’s nerve is less stimulated during the normal operating mode and more relaxed.
+* The psychophysical car-following model (i.e., [AP model](https://ieeexplore.ieee.org/abstract/document/1504791)) is used to quantify **psychological comfort** of the driver. As shown in the following figure, different driving regimes in the psychophysical car-following model are separated based on the human driver’s perceptual thresholds. For example, BX represents the minimum following threshold for the human driver. Here, we focus more on the unconscious regime (white area), where a human driver cannot perceive any relative motion with the preceding car despite unconsciously generating small acceleration/deceleration. Suppose we can design a controller such that the vehicle motion states are within the unconscious regime. In that case, the human’s nerve is less stimulated during the normal operating mode and more relaxed.
 
 <div class="row justify-content-sm-center">
-{% include figure.html path="assets/img/ap_model.jpg" title="AP model" class="img-fluid rounded z-depth-1" %}
+{% include figure.html path="assets/img/ap_model_resize.jpg" title="AP model" class="img-fluid rounded z-depth-1" %}
 </div>
 
 >> In this way, the human workload in monitoring the CACC car operation can also be reduced since the human nerve is less stimulated during the normal operating mode. 
