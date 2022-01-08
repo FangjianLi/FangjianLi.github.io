@@ -29,7 +29,7 @@ $$
 \end{aligned}
 $$
 
->>Intuitively, the above conditions can be achieved by the suitable design of autonomous driving systems and the arrangement of the mixed traffic sequence. More details on derivations and proofs can be found in our paper [1] 
+>Intuitively, the above conditions can be achieved by the suitable design of autonomous driving systems and the arrangement of the mixed traffic sequence. More details on derivations and proofs can be found in our paper [1] 
 
 * It has been rigorous proved that the mixed traffic string stability can be guaranteed by adjusting the time headway of autonomous cars or inserting additional autonomous cars (Theorem 2 in [1])
 
