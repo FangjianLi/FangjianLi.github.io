@@ -2,13 +2,13 @@
 layout: page
 permalink: /activities/
 title: activities
-description: 
+description: Here is a brief summary of my services and activities:
 priority: 5
 nav: true
 ---
-Here is a brief summary of my services and activities:
 
-### 1. Co-chair in the following conference:
+
+### 1. Co-chair in the following conference session:
 * The 2021 Modeling, Estimation and Control Conference (MECC), Austin, TX. ([TuBT2: Advances in Modeling, Estimation, and Control Theory Session](https://ifac.papercept.net/conferences/conferences/MECC21/program/MECC21_ContentListWeb_2.html))
 
 ### 2. Paper reviewer in the following jounrals
