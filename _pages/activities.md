@@ -13,14 +13,14 @@ nav: true
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### Paper reviewer in the following jounrals
+#### Paper <span style="color:purple">reviewer</span> in the following jounrals
 * IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)
 * IEEE IEEE Transactions on Vehicular Technology (IEEE T-VT)
 * IEEE Access
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### Paper reviewer in the following conferences:
+#### Paper <span style="color:purple">reviewer</span> in the following conferences:
 
 * The 2021 International Conference on Intelligent Robots and Systems (IROS), Prague, Czech Republic
 * The 2019 Conference on Advanced Intelligent Mechatronics (AIM), Hong kong, China
@@ -29,7 +29,7 @@ nav: true
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### Poster/Paper presenter in the following conferences:
+#### Poster/Paper <span style="color:purple">presenter</span> in the following conferences:
 
 * 2019 SAE 2019 World Congress 
 * 25th Annual Automotive Research Center Program Review, Ann Arbor, MI
@@ -38,5 +38,5 @@ nav: true
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### 5. Travel awardees in the following summer school:
+#### 5. Travel <span style="color:purple">awardees</span> in the following summer school:
 * IEEE VTS Connected & Autonomous Vehicle Summer School, Worcester, MA
