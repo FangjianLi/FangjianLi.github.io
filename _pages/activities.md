@@ -13,7 +13,7 @@ nav: true
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### Paper <span style="color:purple">reviewer</span> in the following jounrals
+#### Paper <span style="color:purple">reviewer</span> in the following journals:
 * IEEE Transactions on Intelligent Transportation Systems (IEEE T-ITS)
 * IEEE IEEE Transactions on Vehicular Technology (IEEE T-VT)
 * IEEE Access
