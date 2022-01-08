@@ -20,11 +20,12 @@ Vehicle-to-vehicle (V2V) communication can improve autonomous vehicle driving ef
 
 *  It has been proved that this controller is asymptotically stable, string stable (without cyber attacks). (our paper under review [3])
 
->It is also rigorously calculated the maximum V2V cyber attack value, i.e.,  $$\|\zeta_i(t)\|_\infty$$, that a general resilient controller can resist in order to fulfill the safety. (our paper under review [3]) In other words, the limitations calculated here justify the necessity of introducing human operators in dealing with uncertainties and emergencies. 
+>It is also rigorously calculated the maximum V2V cyber attack value, i.e.,  $$\|\zeta_i(t)\|_\infty$$, that a general resilient controller can resist in order to fulfill the safety (our paper under review [3]). In other words, the limitations calculated here justify the necessity of introducing human operators in dealing with uncertainties and emergencies. 
 
 $$
 \begin{equation}
     \|\zeta_i(t)\|_\infty\!<\!\frac{h^*_iv_i(0)\!-\!\|g_{r,i}(t)\|_1\|v_{i-1}(t)\!-\!v_{i-1}(0)\|_\infty-\epsilon}{\|g_{e,i}(t)\|_1},
+    \nonumber
 \end{equation}
 $$
 
