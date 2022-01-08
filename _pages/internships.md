@@ -17,6 +17,7 @@ As a team member, I involved in the following duties and tasks in the developmen
 * ADAS homologations (ECE, ISO, GB) summary and confirmation and review
 
 <hr style="border:0.5px solid purple"> 
+&nbsp;
 
 ### 2. [China Automotive Engineering Research Institute Co., Ltd. (CAERI)](https://www.caeri.com.cn/en/about/caeri/) - Chongqing, China
 #### Advanced Driver Assist System (ADAS) Engineer Co-op, Jun-Aug, 2015
