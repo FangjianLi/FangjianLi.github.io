@@ -7,7 +7,7 @@ priority: 4
 nav: true
 ---
 
-### 1. [BYTON automobile](https://www.byton.com/) - Santa Clara, CA
+### [BYTON automobile](https://www.byton.com/) - Santa Clara, CA
 #### Advanced Driver Assist System (ADAS) Engineer Co-op, Jun-Aug, 2018
 As a team member, I involved in the following duties and tasks in the development of [M-byte SUV](https://www.byton.com/m-byte):
 * Develop ADAS simulation models with SIMULINK and [Carmaker](https://ipg-automotive.com/en/products-solutions/software/carmaker/)
@@ -19,9 +19,9 @@ As a team member, I involved in the following duties and tasks in the developmen
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-### 2. [China Automotive Engineering Research Institute Co., Ltd. (CAERI)](https://www.caeri.com.cn/en/about/caeri/) - Chongqing, China
+### [China Automotive Engineering Research Institute Co., Ltd. (CAERI)](https://www.caeri.com.cn/en/about/caeri/) - Chongqing, China
 #### Advanced Driver Assist System (ADAS) Engineer Co-op, Jun-Aug, 2015
 As a team member, I involved in the following duties and tasks:
 * Develop the testing and evaulation scenarios and procedures of the ADAS features. 
 * On-field testing of ADAS by using Racelogic-Vbox and RT-range.
-* Prepare the host of the [IET international conference on intelligent and connected vehicles (ICV 2016)](http://icv2016.events.theiet.org.cn/meeting/index_en.asp?id=2222)
+* Process the testing data and generate reports
