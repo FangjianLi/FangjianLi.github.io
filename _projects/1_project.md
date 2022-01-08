@@ -8,9 +8,7 @@ category: 'Research: accomodation for the human'
 ---
 ### Motivation
 
-In manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/Accordion_effect), i.e., the velocity fluctuation propagates from the preceding vehicle to the following vehicle, is one of the major causes of traffic flow disruption, driving efficiency, or even collision. In contrast, string stability has been a popular concept for the autonomous driving platoon to avoid the accordion effect. One step further, considering a more practical scenario where the traffic is mixed with autonomous cars and manual cars, can we design a guideline for the autonomous driving algorithm and the traffic arrangement such that velocity fluctuations are not propagated, and the platoon is collision-free?
-
-
+Ideally, a well-designed autonomous driving platoon (team of cars) is string stable and hence can avoid the notorious [accordion effect](https://en.wikipedia.org/wiki/Accordion_effect). However, autonomous driving cars still need to share the road with manual driving cars in the near future, which forms mixed traffic. In this project, we designed a rigorous guideline, i.e., mixed-traffic string stability, for the autonomous driving controller and the traffic arrangement to regulate the efficiency and safety of the mixed traffic.
 
 <div class="row justify-content-sm-center">
 {% include figure.html path="assets/img/traffic_jam.gif" title="accordion effect" class="img-fluid rounded z-depth-1" %}
@@ -18,9 +16,9 @@ In manual driving traffic, the [accordion effect](https://en.wikipedia.org/wiki/
 
 ### Methodologies and results
 
-* Mixed traffic string stability has been defined (Definifition 1 in [1]) such that the velocity fluctation is acceptatble and the rear-end collision should be avoid. 
+* Mixed traffic string stability has been defined (Definition <span style="color:purple">1</span> in [<span style="color:purple">1</span>]) such that the velocity fluctuation is acceptable and the rear-end collision is avoided. 
 
-* The theorem (Theorem 1 in [1]) has been developed and proved that the mixed traffic string stability can be achieved if 
+* A theorem (Theorem <span style="color:purple">1</span> in [<span style="color:purple">1</span>]) has been developed and proved that the mixed traffic string stability can be achieved if 
 
 $$
 \begin{aligned}
@@ -31,13 +29,13 @@ $$
 \end{aligned}
 $$
 
->>Intuitively, the above reuqirements can be achieved by suitable design of the autonomous driving systems, the arrangement ofthe mixed traffic sequence. More details on derivations and proof can be found in [1] 
+>>Intuitively, the above conditions can be achieved by a suitable design of the autonomous driving system and the arrangement of the mixed traffic sequence. More details on derivations and proof can be found in our paper [<span style="color:purple">1</span>] 
 
-* It has been rigorous proved that the mixed taffic string stability can be guaranteedby adjusting the time headway of autonomous cars or inserting anadditional autonomous cars (Theorem 2 in [1])
+* It has been rigorous proved that the mixed traffic string stability can be guaranteed by adjusting the time headway of autonomous cars or inserting additional autonomous cars (Theorem <span style="color:purple">2</span> in [<span style="color:purple">1</span>])
 
 ### Application
 
-* Given a mixed traffic platoon Theorem 1 can be used to check if it is string stable
+* Given a mixed traffic platoon Theorem <span style="color:purple">1</span> can be used to check if it is string stable
 * String stable controller design guidance can be provided 
 
->**[1] Li, Fangjian, and Yue Wang. "Cooperative adaptive cruise control for string stable mixed traffic: Benchmark and human-centered design." IEEE Transactions on Intelligent Transportation Systems 18.12 (2017): 3473-3485.**
+>**[<span style="color:purple">1</span>] Li, Fangjian, and Yue Wang. "Cooperative adaptive cruise control for string stable mixed traffic: Benchmark and human-centered design." IEEE Transactions on Intelligent Transportation Systems 18.12 (2017): 3473-3485.**
