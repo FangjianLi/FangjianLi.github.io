@@ -2,11 +2,25 @@
 layout: page
 permalink: /internships/
 title: internships
-description: Materials for courses you taught. Replace this text with your description.
+description: A short summary of my internships.
 priority: 4
 nav: true
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
+### 1. [BYTON automobile](https://www.byton.com/) - Santa Clara, CA
+#### Advanced Driver Assist System (ADAS) Engineer Co-op, Jun-Aug, 2018
+As a team member, I involved in the following duties and tasks in the development of [M-byte SUV](https://www.byton.com/m-byte):
+* Develop ADAS simulation models with SIMULINK and [Carmaker](https://ipg-automotive.com/en/products-solutions/software/carmaker/)
+* Benchmark testing of the ADAS features in the testbed
+* Develop the novel driver monitoring system (DMS) and prepare the patent
+* Software requirements specification (SRS) writing for the ADAS features
+* ADAS homologations (ECE, ISO, GB) summary and confirmation and review
 
-Organize your courses by years, topics, or universities, however you like!
+<hr style="border:1px solid purple"> </hr>
+
+### 2. [China Automotive Engineering Research Institute Co., Ltd. (CAERI)](https://www.caeri.com.cn/en/about/caeri/) - Chongqing, China
+#### Advanced Driver Assist System (ADAS) Engineer Co-op, Jun-Aug, 2015
+As a team member, I involved in the following duties and tasks:
+* Develop the testing and evaulation scenarios and procedures of the ADAS features. 
+* On-field testing of ADAS by using Racelogic-Vbox and RT-range.
+* Prepare the host of the [IET international conference on intelligent and connected vehicles (ICV 2016)](http://icv2016.events.theiet.org.cn/meeting/index_en.asp?id=2222)
