@@ -7,4 +7,4 @@ priority: 6
 nav: true
 ---
 
-<iframe src="assets/pdf/Resume_Fangjian_Li.pdf" width="100%" height="100%"></iframe>
+<iframe src="https://drive.google.com/file/d/1IGNiI5HlCO9PmAGISEq2avwJJjSaOrPj/view?usp=sharing" width="100%" height="100%"></iframe>
