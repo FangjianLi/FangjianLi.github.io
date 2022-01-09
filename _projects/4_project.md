@@ -25,7 +25,7 @@ Although the autonomous vehicle team has achieved success in recent years, human
 
 * The abnormality probability of each vehicle is shown in the **GUI**. The human operator can then teleoperate it. Moreover, human opinion can also feed into the TIMS to refresh the system. 
 
-* A very preliminary version has been pubslished in our paper [2]. The full verison is under review [3].
+* A **very preliminary** version has been pubslished in our paper [2]. The full verison is under review [3].
 
 ### Results
 
