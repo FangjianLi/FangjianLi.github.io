@@ -8,7 +8,7 @@ nav: true
 ---
 
 ### [BYTON automobile](https://www.byton.com/) - Santa Clara, CA
-#### Advanced Driver Assist System (ADAS) Engineer Co-op, Jun-Aug, 2018
+#### Advanced Driver Assist System (ADAS) Engineer Co-op, May-Aug, 2018
 As a team member, I was involved in the following duties and tasks in the development of [M-byte SUV](https://www.byton.com/m-byte):
 * Develop ADAS simulation models with SIMULINK and [Carmaker](https://ipg-automotive.com/en/products-solutions/software/carmaker/)
 * Benchmark testing of the ADAS features in the testbed
