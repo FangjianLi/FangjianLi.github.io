@@ -96,8 +96,6 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 collections:
 
   news:
-    defaults:
-      layout: post
     output: true
     permalink: /news/:path/
 
