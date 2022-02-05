@@ -95,6 +95,12 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 collections:
 
+  news:
+    defaults:
+      layout: post
+    output: true
+    permalink: /news/:path/
+
   projects:
     output: true
     permalink: /projects/:path/
@@ -111,6 +117,7 @@ collections:
     output: true
     permalink: /activities/:path/
   
+news_limit: 5
 
 
 # -----------------------------------------------------------------------------
