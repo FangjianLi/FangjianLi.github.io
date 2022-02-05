@@ -95,10 +95,6 @@ panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 collections:
 
-  news:
-    output: true
-    permalink: /news/:path/
-
   projects:
     output: true
     permalink: /projects/:path/
