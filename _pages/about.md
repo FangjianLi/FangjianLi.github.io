@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 My anticipated graduation date is May 2022.
 
-I received my Ph.D. in Mechanical Engineering Department at Clemson University in May 2022 and my master's degree in Automotive Engineering at Clemson in 2016. My research focuses on the human-aware autonomous driving algorithms, i.e., how the presence of human drivers can affect or help the autonomous driving systems. The techniques involved in my research are (inverse) reinforcement learning, imitation learning, optimal control, and Bayesian inference. Now, I am working as a development engineer in Audi automated development office in San Jose.
+I received my Ph.D. in Mechanical Engineering Department at Clemson University in May 2022, and my master's degree in Automotive Engineering at Clemson in 2016. My research focuses on the human-aware autonomous driving algorithms, i.e., how the presence of human drivers can affect or help the autonomous driving systems. The techniques involved in my research are (inverse) reinforcement learning, imitation learning, optimal control, and Bayesian inference. Now, I am working as a development engineer in Audi automated development office in San Jose.
 
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
