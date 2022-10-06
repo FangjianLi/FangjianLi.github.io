@@ -9,7 +9,7 @@ nav: true
 
 
 #### <span style="color:purple">Chair/Co-chair</span> in the following conference session:
-* Chair: The 2022 Modeling, Estimation and Control Conference (MECC), Jersey City, NJ. ([MoBT2: Machine Learning, Modeling, and Controls Session]([https://ifac.papercept.net/conferences/conferences/MECC21/program/MECC21_ContentListWeb_2.html](https://ifac.papercept.net/conferences/conferences/MECC22/program/MECC22_ContentListWeb_1.html)))
+* Chair: The 2022 Modeling, Estimation and Control Conference (MECC), Jersey City, NJ. ([MoBT2: Machine Learning, Modeling, and Controls Session]([https://ifac.papercept.net/conferences/conferences/MECC21/program/MECC21_ContentListWeb_2.html](https://ifac.papercept.net/conferences/conferences/MECC22/program/MECC22_ContentListWeb_1.html))
 * Co-chair: The 2021 Modeling, Estimation and Control Conference (MECC), Austin, TX. ([TuBT2: Advances in Modeling, Estimation, and Control Theory Session](https://ifac.papercept.net/conferences/conferences/MECC21/program/MECC21_ContentListWeb_2.html))
 <hr style="border:0.5px solid purple"> 
 &nbsp;
