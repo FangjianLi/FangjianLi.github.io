@@ -18,6 +18,7 @@ social: true  # includes social icons at the bottom of the page
 ---
 
 I received my Ph.D. degree in Mechanical Engineering Department at Clemson University (May 2022), and my master's degree in Automotive Engineering at Clemson. My research focuses on the human-aware autonomous driving algorithms, i.e., how the presence of human drivers can affect or help the autonomous driving systems. The techniques involved in my research are (inverse) reinforcement learning, imitation learning, optimal control, and Bayesian inference. 
+
 <!-- 
 Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
 
