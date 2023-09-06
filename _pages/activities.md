@@ -16,7 +16,8 @@ nav: true
 
 #### <span style="color:purple">Guest speaker</span> in the following conference session:
 * The 2023 American Control Conference, San Diego, CA. ([Human Autonomy Interaction Workshop](https://zoe104yao.github.io/ACC2023Workshop/talk-10/))
-
+<hr style="border:0.5px solid purple"> 
+&nbsp;
 
 
 #### <span style="color:purple">Guest editor</span> in the following journal:
