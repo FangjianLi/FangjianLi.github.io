@@ -14,7 +14,12 @@ nav: true
 <hr style="border:0.5px solid purple"> 
 &nbsp;
 
-#### <span style="color:purple">Guest Editor</span> in the following journal:
+#### <span style="color:purple">Guest speaker</span> in the following conference session:
+* The 2023 American Control Conference, San Diego, CA. ([Human Autonomy Interaction Workshop](https://zoe104yao.github.io/ACC2023Workshop/talk-10/))
+
+
+
+#### <span style="color:purple">Guest editor</span> in the following journal:
 * Sustainability, [Special Issue "Emerging Applications of Data-Driven Intelligent Transportation Systems toward Sustainability with an Emphasis on Privacy and Safety of Citizens" IF 3.889](https://www.mdpi.com/journal/sustainability/special_issues/0F09DAI07D)
 <hr style="border:0.5px solid purple"> 
 &nbsp;
