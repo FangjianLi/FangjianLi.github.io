@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-description: PhD from Clemson University
+description: Ph.D. from Clemson University
 priority: 1
 profile:
   align: right
