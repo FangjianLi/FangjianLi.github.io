@@ -12,7 +12,7 @@
   Fangjian Li
 
 
-  | blog
+  | interactive safety cirtic networks
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://fangjianli.github.io/blog/">
+<link rel="canonical" href="https://fangjianli.github.io/projects/8_project/">
 
 
 <!-- Dark Mode -->
@@ -218,18 +218,113 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">interactive safety cirtic networks</h1>
+    <p class="post-description">a safety critic network considering the interactions between neighbor cars</p>
+  </header>
 
+  <article>
+    <p><strong>This is my on-going research. The technical details and codes will be updated soon.</strong></p>
 
-  <ul class="post-list">
+<h3 id="motivation">Motivation</h3>
+
+<p>Safety is of great importance for reinforcement learning in robotics and autonomous driving. Correspondingly, lots of techniques have been used to incorporate the safety concept in the RL algorithms, such as the Hamilton-Jacobi-Isaacs (HJI) reachability approach and control barrier function (CBF) analysis. In this project, a novel safety critic that evaluates the safety level of the current driving state is proposed. Moreover, the safe control input that can maximize the safety level is also generated. Comparing to the state-of-arts, the proposed work rigorously considers the interactions with the neighbor cars but does not require the preknowledge of the system dynamic equations.</p>
+
+<h3 id="human-data-sampling">Human data sampling</h3>
+
+<p>In this project, real human data will be collected from the built driving simulator. The human participants (drivers) are required to behave irresponsible or even aggressive towards the car controlled by the learning algorithm. Correspondingly, the driving simulator is built/written such that it can have the following features.</p>
+
+<ul>
+  <li>The driving simulator has three kinds of cars, i.e., the autonomous car controlled by the user-defined learning algorithm, the manually driven car controlled by the human participant, and the neighbor cars modeled by the driver models.</li>
+  <li>The collected data are in the form of (state, action) in the MDP model. As a result, the data can be directly used for training purposes.</li>
+  <li>Modular design. In the no-rendering mode, the driving simulator should be lightweight in order to speed up the sampling process in RL training.</li>
+  <li>The Carla is integrated with this driving simulator, such that the animation is rendered by the Unreal engine.</li>
+  <li>It can accommodate two kinds of human input. One is the low-level control input from the steering wheel and pedals. The other option is the decision-making command, e.g., changing to the left/right lane.</li>
+</ul>
+
+<p>The codes will be available in my Github repository soon. Here are some video captures (the yellow car is controlled by a user-defined learning algorithm, the green car is controlled by the human, and blue cars are modeled by the driver models):</p>
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  <picture>
     
-  </ul>
+      <source media="(max-width: 480px)" srcset="/assets/img/continuous_action_input.gif-480.webp"></source>
+    
+      <source media="(max-width: 800px)" srcset="/assets/img/continuous_action_input.gif-800.webp"></source>
+    
+      <source media="(max-width: 1400px)" srcset="/assets/img/continuous_action_input.gif-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/continuous_action_input.gif" title="">
+
+  </picture>
 
   
 
+</figure>
+
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        
+
+<figure>
+
+  <picture>
+    
+      <source media="(max-width: 480px)" srcset="/assets/img/decision_making_action.gif-480.webp"></source>
+    
+      <source media="(max-width: 800px)" srcset="/assets/img/decision_making_action.gif-800.webp"></source>
+    
+      <source media="(max-width: 1400px)" srcset="/assets/img/decision_making_action.gif-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/decision_making_action.gif" title="">
+
+  </picture>
+
+  
+
+</figure>
+
+    </div>
+</div>
+<div class="caption">
+
+<div class="row justify-content-sm-center">
+    
+
+<figure>
+
+  <picture>
+    
+      <source media="(max-width: 480px)" srcset="/assets/img/preliminary_demo.gif-480.webp"></source>
+    
+      <source media="(max-width: 800px)" srcset="/assets/img/preliminary_demo.gif-800.webp"></source>
+    
+      <source media="(max-width: 1400px)" srcset="/assets/img/preliminary_demo.gif-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/preliminary_demo.gif" title="">
+
+  </picture>
+
+  
+
+</figure>
+
+</div>
+    
+
+</div>
+
+  </article>
 
 </div>
 

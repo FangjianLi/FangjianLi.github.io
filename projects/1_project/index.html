@@ -12,7 +12,7 @@
   Fangjian Li
 
 
-  | blog
+  | String stable mixed traffic platoon
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://fangjianli.github.io/blog/">
+<link rel="canonical" href="https://fangjianli.github.io/projects/1_project/">
 
 
 <!-- Dark Mode -->
@@ -218,18 +218,79 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">String stable mixed traffic platoon</h1>
+    <p class="post-description">an efficient and safe vehicle team</p>
+  </header>
+
+  <article>
+    <h3 id="motivation">Motivation</h3>
+
+<p>Ideally, a well-designed autonomous driving platoon (team of cars) is string stable and hence can avoid the notorious <a href="https://en.wikipedia.org/wiki/Accordion_effect" target="_blank" rel="noopener noreferrer">accordion effect</a>. However, autonomous driving cars still need to share the road with manual driving cars in the near future, which forms mixed traffic. In this project, we designed a rigorous guideline, i.e., mixed-traffic string stability, for the autonomous driving controller and the traffic arrangement to regulate the efficiency and safety of the mixed traffic.</p>
+
+<div class="row justify-content-sm-center">
 
 
-  <ul class="post-list">
+<figure>
+
+  <picture>
     
-  </ul>
+      <source media="(max-width: 480px)" srcset="/assets/img/traffic_jam_effect.gif-480.webp"></source>
+    
+      <source media="(max-width: 800px)" srcset="/assets/img/traffic_jam_effect.gif-800.webp"></source>
+    
+      <source media="(max-width: 1400px)" srcset="/assets/img/traffic_jam_effect.gif-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/traffic_jam_effect.gif" title="">
+
+  </picture>
 
   
 
+</figure>
+
+</div>
+
+<h3 id="methodologies-and-results">Methodologies and results</h3>
+
+<ul>
+  <li>
+    <p>Mixed traffic string stability has been defined (Definition <span style="color:purple">1</span> in [<span style="color:purple">1</span>]) such that the velocity fluctuation is acceptable and the rear-end collision is avoided.</p>
+  </li>
+  <li>
+    <p>A theorem (Theorem 1 in [1]) has been developed and proved that the mixed traffic string stability can be achieved if</p>
+  </li>
+</ul>
+
+\[\begin{aligned}
+&amp;\|G^{\Lambda}_{i,1}(s)\|_{H_\infty} \leq \|G^{*}_{h_a}(s)\|_{H_\infty},~\forall \ i &gt;1,  \\
+&amp;\|g^{\Lambda}_{i,1}(t)\|_1 \leq \|g^{*}_{h_a}(t)\|_1,~\forall \ i &gt; 1,\\
+&amp;\|v_1(t)-v_1(0)\|_\infty
+\leq\min\left(\frac{h_{\Phi(i)}v_1(0)}{\|g^{'}_{\Phi(i)}(t)\|_1\|g^{*}_{h_a}(t)\|_1},\frac{h_{\Phi(2)}v_1(0)}{\|g^{'}_{\Phi(2)}(t)\|_1}\right), \forall i&gt;2,
+\end{aligned}\]
+
+<blockquote>
+  <p>Intuitively, the above conditions can be achieved by the suitable design of autonomous driving systems and the arrangement of the mixed traffic sequence. More details on derivations and proofs can be found in our paper [1]</p>
+</blockquote>
+
+<ul>
+  <li>It has been rigorous proved that the mixed traffic string stability can be guaranteed by adjusting the time headway of autonomous cars or inserting additional autonomous cars (Theorem 2 in [1])</li>
+</ul>
+
+<h3 id="application">Application</h3>
+
+<ul>
+  <li>Given a mixed traffic platoon, Theorem 1 can be used to check if it is string stable.</li>
+  <li>String stable controller design guidance can be provided by Theorem 1.</li>
+</ul>
+
+<blockquote>
+  <p><strong><a href="https://ieeexplore.ieee.org/abstract/document/8094925" target="_blank" rel="noopener noreferrer">[1] Li, Fangjian, and Yue Wang. “Cooperative adaptive cruise control for string stable mixed traffic: Benchmark and human-centered design.” IEEE Transactions on Intelligent Transportation Systems 18.12 (2017): 3473-3485</a>.</strong></p>
+</blockquote>
+
+  </article>
 
 </div>
 

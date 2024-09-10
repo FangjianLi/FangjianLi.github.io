@@ -12,7 +12,7 @@
   Fangjian Li
 
 
-  | blog
+  | Resilient CACC under cyber attacks
 
 </title>
 <meta name="description" content="A simple, whitespace theme for academics. Based on [*folio](https://github.com/bogoli/-folio) design.
@@ -38,7 +38,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🔥</text></svg>">
 
 <link rel="stylesheet" href="/assets/css/main.css">
-<link rel="canonical" href="https://fangjianli.github.io/blog/">
+<link rel="canonical" href="https://fangjianli.github.io/projects/3_project/">
 
 
 <!-- Dark Mode -->
@@ -218,18 +218,101 @@
     <div class="container mt-5">
       <div class="post">
 
-  <div class="header-bar">
-    <h1></h1>
-    <h2></h2>
-  </div>
+  <header class="post-header">
+    <h1 class="post-title">Resilient CACC under cyber attacks</h1>
+    <p class="post-description">a resilient vehicle autonomous longitudinal controller under cyber attacks</p>
+  </header>
+
+  <article>
+    <h3 id="motivations">Motivations</h3>
+<p>Vehicle-to-vehicle (V2V) communication can improve autonomous vehicle driving efficiencies and safety. However, the V2V cyber-attacks bring about new threats and hinder its wide applications in the real world. In this project, a resilient controller is designed for the autonomous longitudinal controller in resisting the V2V cyber attacks. More importantly, the limitation of the autonomous controller in dealing with cyber attacks has been rigorously calculated.</p>
+
+<h3 id="methodologies">Methodologies</h3>
+
+<ul>
+  <li>The resilient controller is designed based on the unknown input observer (UIO). The block diagram is shown below. More details can be found in our paper [2].</li>
+</ul>
+
+<div class="row justify-content-sm-center">
 
 
-  <ul class="post-list">
+<figure>
+
+  <picture>
     
-  </ul>
+      <source media="(max-width: 480px)" srcset="/assets/img/OBRC_structure-480.webp"></source>
+    
+      <source media="(max-width: 800px)" srcset="/assets/img/OBRC_structure-800.webp"></source>
+    
+      <source media="(max-width: 1400px)" srcset="/assets/img/OBRC_structure-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/OBRC_structure.jpg" title="">
+
+  </picture>
 
   
 
+</figure>
+
+</div>
+
+<ul>
+  <li>It has been proved that this controller is asymptotically stable, string stable (without cyber attacks). (our paper under review [3])</li>
+</ul>
+
+<blockquote>
+  <p>It is also rigorously calculated the maximum V2V cyber attack value, i.e.,  \(\|\zeta_i(t)\|_\infty\), that a general resilient controller can resist in order to fulfill the safety (our paper under review [3]). In other words, the limitations calculated here justify the necessity of introducing human operators in dealing with uncertainties and emergencies.</p>
+</blockquote>
+
+\[\begin{equation}
+    \|\zeta_i(t)\|_\infty\!&lt;\!\frac{h^*_iv_i(0)\!-\!\|g_{r,i}(t)\|_1\|v_{i-1}(t)\!-\!v_{i-1}(0)\|_\infty-\epsilon}{\|g_{e,i}(t)\|_1},
+    \nonumber
+\end{equation}\]
+
+<ul>
+  <li>The safety conditions for the vehicle team under cyber attacks have also been calculated (our paper under review [3]).</li>
+</ul>
+
+<h3 id="results">Results</h3>
+
+<ul>
+  <li>The system models of the oberver-based resisilent controller (OBRC) and benchmark controller have been built with <strong>SIMULINK</strong>. The performance comparion are shown as follows. (more details can be found in [2]).</li>
+</ul>
+
+<div class="row justify-content-sm-center">
+
+
+<figure>
+
+  <picture>
+    
+      <source media="(max-width: 480px)" srcset="/assets/img/OBRC_performance-480.webp"></source>
+    
+      <source media="(max-width: 800px)" srcset="/assets/img/OBRC_performance-800.webp"></source>
+    
+      <source media="(max-width: 1400px)" srcset="/assets/img/OBRC_performance-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img class="img-fluid rounded z-depth-1" src="/assets/img/OBRC_performance.jpg" title="">
+
+  </picture>
+
+  
+
+</figure>
+
+</div>
+
+<blockquote>
+  <p><strong><a href="https://www.sae.org/publications/technical-papers/content/2019-01-1077/" target="_blank" rel="noopener noreferrer">[2] Li, Fangjian, et al. Trust-based control and scheduling for UGV platoon under cyber attacks. No. 2019-01-1077. SAE Technical Paper, 2019</a>.</strong> <br>
+<strong>[3] Li, Fangjian, et al. Unmanned Ground Vehicle Platooning under CyberAttacks: A Human-Robot Interaction Framework. 
+accepted in IEEE Transactions on Intelligent Transportation Systems, 2022</strong></p>
+</blockquote>
+
+  </article>
 
 </div>
 
